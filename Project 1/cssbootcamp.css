@@ -1,0 +1,40 @@
+body{
+	background-color: white;
+	margin: 0 0 0 0;
+}
+
+.header{
+	background-color: white;
+	height: 70px;
+	border-bottom: 5px solid #247182;
+}
+
+.mediaLinks{
+	background-color: #004452;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+}
+
+.mediaPics{
+	height: inherit;
+}
+
+.mediaPics img{
+	height: 50%;
+	margin: 15px 10px;
+}
+
+.navigationLink{
+	list-style: none;
+	float: right;
+}
+
+.navigationLink li{
+	display: inline;
+}
+
+.logo{
+	height: 55%;
+	margin: 17px 10px 10px 120px;
+}

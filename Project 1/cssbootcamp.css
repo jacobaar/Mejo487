@@ -16,6 +16,7 @@ body{
 	height: 60px;
 	display: flex;
 	justify-content: center;
+	margin-bottom: 4px;
 }
 
 .mediaPics{
@@ -31,6 +32,11 @@ body{
 	list-style: none;
 	float: right;
 	margin: 15px 200px 10px;
+}
+
+#searchImg{
+	width: 20px;
+	margin-left: 5px;
 }
 
 .navigationLink li{
@@ -87,6 +93,12 @@ body{
 	margin-top: 30px;
 }
 
+#rightArrow{
+	background-color: red;
+	height: 80px;
+	width: 30px;
+}
+
 .functionCards{
 	display: flex;
 	justify-content: center;
@@ -98,9 +110,84 @@ body{
 	margin: 30px 15px 30px 15px;
 }
 
+.uncPassport{
+	margin-bottom: 30px;
+}
+
+#passportImage{
+	height: 250px;
+	width: 615px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#passportDescription{
+	line-height: 1.8em;
+}
+
+#passportDescription a{
+	color: #247182;
+}
+
+
 .footer{
-	height: 200px;
+	height: 270px;
 	background-color: #f4f4f4;
+	border-top: 5px solid #247182;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #247182;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+}
+
+.businessInfo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 25px;
+	#height: 100%;
+}
+
+#biggerLogo{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width: 210px;
+	height: 70px;
+}
+
+#businessAddress{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#businessPhoneNumber{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.optionsDiv{
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+#optionList{
+	list-style: none;
+}
+
+#optionList li{
+	margin: 3px;
+}
+
+.listHeader{
+	font-weight: bold;
 }
 
 .copyright{
@@ -114,7 +201,6 @@ body{
 #copyrightText{
 	font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 	font-size: 1.6rem;
-	
 }
 
 

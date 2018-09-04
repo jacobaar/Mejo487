@@ -4,6 +4,8 @@ body{
 }
 
 .header{
+	top: 0;
+	position: sticky;
 	background-color: white;
 	height: 70px;
 	border-bottom: 5px solid #247182;
@@ -28,13 +30,94 @@ body{
 .navigationLink{
 	list-style: none;
 	float: right;
+	margin: 15px 200px 10px;
 }
 
 .navigationLink li{
 	display: inline;
 }
 
+#donateLink{
+	text-decoration: none;
+	color: #ac031f;
+	font-weight: bold;
+}
+
+.donateButton{
+	color: #ac031f;
+}
+
+.donateButton:hover{
+	color: #ac031f;
+}
+
+.navigationLink li:hover{
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.button{
+	border: none;
+	padding: 0px;
+	text-align: center;
+	margin: 0px 18px 0px 18px;
+	text-transform: none;
+	font-size: 12pt;
+	font-weight: normal;
+	font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 .logo{
 	height: 55%;
 	margin: 17px 10px 10px 120px;
 }
+
+.sliderBanner{
+	
+}
+
+.imageSlider{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.mainEventImage{
+	margin-top: 30px;
+}
+
+.functionCards{
+	display: flex;
+	justify-content: center;
+}
+
+.function{
+	height: 150px;
+	width: 300px;
+	margin: 30px 15px 30px 15px;
+}
+
+.footer{
+	height: 200px;
+	background-color: #f4f4f4;
+}
+
+.copyright{
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+#copyrightText{
+	font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 1.6rem;
+	
+}
+
+
+
+
+

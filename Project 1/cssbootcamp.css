@@ -16,22 +16,30 @@ body{
 	height: 60px;
 	display: flex;
 	justify-content: center;
-	margin-bottom: 4px;
+	#margin-bottom: 4px;
+	width: 100%;
 }
 
 .mediaPics{
 	height: inherit;
 }
 
-.mediaPics img{
+.mediaPics a{
 	height: 50%;
 	margin: 15px 10px;
+}
+
+.linkForMedia img{
+	height: inherit;
+	margin-top: 13px;
 }
 
 .navigationLink{
 	list-style: none;
 	float: right;
-	margin: 15px 200px 10px;
+	margin: 0;
+	height: 100%;
+	margin-right: 125px;
 }
 
 #searchImg{
@@ -40,7 +48,9 @@ body{
 }
 
 .navigationLink li{
-	display: inline;
+	display: inline-block;
+	height: inherit;
+	margin: 0;
 }
 
 #donateLink{
@@ -60,26 +70,28 @@ body{
 .navigationLink li:hover{
 	border-right: 1px solid black;
 	border-left: 1px solid black;
+	background-color: lightgrey;
 }
 
 .button{
 	border: none;
 	padding: 0px;
 	text-align: center;
-	margin: 0px 18px 0px 18px;
+	margin: 15px 18px 0px 18px;
 	text-transform: none;
 	font-size: 12pt;
 	font-weight: normal;
 	font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-.logo{
+.logoLink{
 	height: 55%;
 	margin: 17px 10px 10px 120px;
 }
 
-.sliderBanner{
-	
+.logo{
+	height: inherit;
+	margin-top: 15px;
 }
 
 .imageSlider{
@@ -87,6 +99,14 @@ body{
 	margin-left: auto;
     margin-right: auto;
     width: 85%;
+}
+
+.sliderBanner{
+	width: 100%;
+}
+
+.slidersImage{
+	width: 100%;
 }
 
 .mainEventImage{
@@ -102,12 +122,76 @@ body{
 .functionCards{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .function{
 	height: 150px;
 	width: 300px;
 	margin: 30px 15px 30px 15px;
+}
+
+.card{
+	#display: inline-block;
+	height: 100%;
+	width: inherit;
+}
+
+.blogPostElems{
+	display: block;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#latestPosts{
+	font-size: 18pt;
+}
+
+.categoryButton{
+	color: #247182;
+	font-size: 10pt;
+	border-radius: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: 10px;
+	border-color: #247182;
+}
+
+.categoryButton:hover{
+	color: white;
+	text-decoration: underline;
+	background-color: #247182;
+}
+
+.readerOfTheWeek{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.readerName{
+	background-color: blue;
+	height: inherit;
+}
+
+.readerLink{
+	color: #666;
+	font-size: 15pt;
+	text-decoration: none;
+}
+
+.author{
+	background-color: red;
+}
+
+.readerLink:hover{
+	color: #666;
+	text-decoration: underline;
+}
+
+#greatAmericanReadImg{
+	width: 100%;
 }
 
 .uncPassport{
@@ -118,8 +202,14 @@ body{
 	height: 250px;
 	width: 615px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	float: right;
+	#margin-left: auto;
+	#argin-right: auto;
+}
+
+#passportsImage{
+	height:inherit;
+	width: inherit;
 }
 
 #passportDescription{
@@ -201,6 +291,16 @@ body{
 #copyrightText{
 	font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 	font-size: 1.6rem;
+}
+
+@media(max-width: 767px){
+	.navigationLink{
+		display: none;
+	}
+	
+	.logoLink{
+		float: right;
+	}
 }
 
 

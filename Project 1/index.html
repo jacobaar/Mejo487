@@ -14,7 +14,7 @@
 	<body>
 	
 		<header class = "header">
-			<a href = "#"> <img class = "logo" src = "unctvlogo.png" /> </a>
+			<a class = "logoLink" href = "https://www.unctv.org/"> <img class = "logo" src = "unctvlogo.png" /> </a>
 		
 			<ul class = "navigationLink">
 				<li> <button class = "button">Watch</button> </li>
@@ -23,23 +23,23 @@
 				<li> <button class = "button">About</button> </li>
 				<li> <button class = "button">Support</button> </li>
 				<li> <button class = "button donateButton"><a id = "donateLink" href = "https://www.callswithoutwalls.com/pledgeCart3/?campaign=09B6522E-799A-4DCD-B979-289DC6151324&source#/home" target = "_blank">DONATE</a></button> </li>
-				<li> <img id = "searchImg" src = "search.png"> </li>
+				<li> <button class = "button"><img id = "searchImg" src = "search.png"></button> </li>
 			</ul>
 		</header>
 	
 		<div class = "rows mediaLinks">
 			<div class = "mediaPics">
-				<a href = "https://www.facebook.com/publicmediaNC/" target = "_blank"><img src = "facebook.jpg"></a>
-				<a href = "https://twitter.com/publicmedianc" target = "_blank"><img src = "twitter.jpg"></a>
-				<a href = "https://www.instagram.com/publicmedianc/" target = "_blank"><img src = "instagram.jpg"></a>
-				<a href = "https://www.youtube.com/user/exploreUNCTV/channels" target = "_blank"><img src = "youtube.jpg"></a>
-				<a href = "https://www.unctv.org/signup/"><img src = "email.jpg" target = "_blank"></a>
+				<a class = "linkForMedia" href = "https://www.facebook.com/publicmediaNC/" target = "_blank"><img src = "facebook.jpg"></a>
+				<a class = "linkForMedia" href = "https://twitter.com/publicmedianc" target = "_blank"><img src = "twitter.jpg"></a>
+				<a class = "linkForMedia" href = "https://www.instagram.com/publicmedianc/" target = "_blank"><img src = "instagram.jpg"></a>
+				<a class = "linkForMedia" href = "https://www.youtube.com/user/exploreUNCTV/channels" target = "_blank"><img src = "youtube.jpg"></a>
+				<a class = "linkForMedia" href = "https://www.unctv.org/signup/"><img src = "email.jpg" target = "_blank"></a>
 			</div>
 		</div>
 		
 		<div class = "rows mainEventImage">
-			<a href = "https://www.unctv.org/about/pressroom/directv-ceases-carriage/"><img class = "imageSlider sliderbanner" src = "sliderbanner.jpg"></a>
-			<a href = "https://video.unctv.org/video/meet-lords-yx2hgx/"><img class = "imageSlider slidersImage" src = "meetthelords.jpg"></a>
+			<a class = "imageSlider" href = "https://www.unctv.org/about/pressroom/directv-ceases-carriage/"><img class = "imageSlider sliderBanner" src = "sliderbanner.jpg"></a>
+			<a class = "imageSlider" href = "https://video.unctv.org/video/meet-lords-yx2hgx/"><img class = "imageSlider slidersImage" src = "meetthelords.jpg"></a>
 			<!--
 			Meet the Lords	
 			Watch Meet the Lords, Tuesday, 9/4, at 10 PM, on the explorer channel.
@@ -48,16 +48,50 @@
 		</div>
 		
 		<div class = "row functionCards">
-			<a href = "https://www.unctv.org/schedule/"><img class = "function" src = "viewSchedule.jpg"></a>
-			<a href = "https://video.unctv.org/" target = "_blank"><img class = "function" src = "watchOnline.jpg"></a>
-			<a href = "https://www.unctv.org/watch/how-to-watch/"><img class = "function" src = "howToWatch.jpg"></a>
-			<a href = "https://www.unctv.org/support/"><img class = "function" src = "waysToSupport.jpg"></a>
+			<a class = "function" href = "https://www.unctv.org/schedule/"><img class = "card" src = "viewSchedule.jpg"></a>
+			<a class = "function" href = "https://video.unctv.org/" target = "_blank"><img class = "card" src = "watchOnline.jpg"></a>
+			<a class = "function" href = "https://www.unctv.org/watch/how-to-watch/"><img class = "card" src = "howToWatch.jpg"></a>
+			<a class = "function" href = "https://www.unctv.org/support/"><img class = "card" src = "waysToSupport.jpg"></a>
 		</div>
+		
+		<div class = "row blogPostElems">
+			<div class = "row latestLabel">
+				<p id = "latestPosts">LATEST BLOG POSTS</p>
+			</div>
+			<div class = "row postCategoryButtons">
+				<button class = "categoryButton">Arts</button>
+				<button class = "categoryButton">NC History</button>
+				<button class = "categoryButton">Documentary</button>
+				<button class = "categoryButton">Lifestyle</button>
+			</div>
+			<div class = "row readerOfTheWeek">
+				<div class = "eight columns">
+					<img id = "greatAmericanReadImg" src = "greatRead.png">
+				</div>
+				<div class = "four columns">
+					<div class = "row readerName">
+						<a class = "readerLink" href = "https://www.unctv.org/blogs/arts/reader-of-the-week-christina-rush/">Reader of the Week: Christina Rush</a>
+					</div>
+					<div class = "row author">
+						<p>by Rebekah Radisch • July 10 2018</p>
+					</div>
+					<div class = "row smallMediaLinks">
+						<div class = "smallMediaPics">
+							<a class = "smallLinkForMedia" href = "#" target = "_blank"><img src = "facebook.svg"></a>
+							<a class = "smallLinkForMedia" href = "#" target = "_blank"><img src = "twitter.svg"></a>
+							<a class = "smallLinkForMedia" href = "#" target = "_blank"><img src = "google.svg"></a>
+							<a class = "smallLinkForMedia" href = "#" target = "_blank"><img src = "mail.svg"></a>
+			</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 		
 		<div class = "row uncPassport">
 		
 			<div class = "six columns">
-				<a href = "https://www.unctv.org/support/passport/"><img id = "passportImage" src = "unctvpassport.jpg"></a>
+				<a id = "passportImage" href = "https://www.unctv.org/support/passport/"><img id = "passportsImage" src = "unctvpassport.jpg"></a>
 			</div>
 			
 			<div class = "six columns">
@@ -76,13 +110,13 @@
 		
 		<div class = "rows mediaLinks">
 			<div class = "mediaPics">
-				<a href = "https://www.facebook.com/publicmediaNC/" target = "_blank"><img src = "facebook.jpg"></a>
-				<a href = "https://twitter.com/publicmedianc" target = "_blank"><img src = "twitter.jpg"></a>
-				<a href = "https://www.instagram.com/publicmedianc/" target = "_blank"><img src = "instagram.jpg"></a>
-				<a href = "https://www.youtube.com/user/exploreUNCTV/channels" target = "_blank"><img src = "youtube.jpg"></a>
-				<a href = "https://www.unctv.org/signup/"><img src = "email.jpg" target = "_blank"></a>
+				<a class = "linkForMedia" href = "https://www.facebook.com/publicmediaNC/" target = "_blank"><img src = "facebook.jpg"></a>
+				<a class = "linkForMedia" href = "https://twitter.com/publicmedianc" target = "_blank"><img src = "twitter.jpg"></a>
+				<a class = "linkForMedia" href = "https://www.instagram.com/publicmedianc/" target = "_blank"><img src = "instagram.jpg"></a>
+				<a class = "linkForMedia" href = "https://www.youtube.com/user/exploreUNCTV/channels" target = "_blank"><img src = "youtube.jpg"></a>
+				<a class = "linkForMedia" href = "https://www.unctv.org/signup/"><img src = "email.jpg" target = "_blank"></a>
 			</div>
-		</div>		
+		</div>	
 		<footer class = "row footer">
 			<div class = "four columns businessInfo">
 				<img id = "biggerLogo" src = "unctvlogo.png">

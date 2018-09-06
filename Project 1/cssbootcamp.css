@@ -9,6 +9,7 @@ body{
 	background-color: white;
 	height: 70px;
 	border-bottom: 5px solid #247182;
+	z-index: 2;
 }
 
 .mediaLinks{
@@ -95,6 +96,14 @@ body{
 }
 
 .imageSlider{
+	#display: block;
+	#margin-left: auto;
+    #margin-right: auto;
+    #width: 85%;
+	width: 100%;
+}
+
+.sliderImageHolder{
 	display: block;
 	margin-left: auto;
     margin-right: auto;
@@ -113,13 +122,40 @@ body{
 	margin-top: 30px;
 }
 
+.sliderImageHolder:hover #rightArrow{
+	visibility: visible;
+}
+
+.sliderImageHolder:hover #leftArrow{
+	visibility: visible;
+}
+
 #rightArrow{
-	background-color: red;
+	#background-color: red;
+	visibility: hidden;
 	height: 80px;
 	width: 30px;
+	position: relative;
+	float: right;
+	right: 20px;
+	bottom: 300px;
+	z-index: 1;
+}
+
+#leftArrow{
+	#background-color: red;
+	transform: scaleX(-1);
+	visibility: hidden;
+	height: 80px;
+	width: 30px;
+	position: relative;
+	left: 20px;
+	bottom: 300px;
+	z-index: 1;
 }
 
 .functionCards{
+	clear: both;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -135,6 +171,101 @@ body{
 	#display: inline-block;
 	height: 100%;
 	width: inherit;
+}
+
+.moreFunctionsAndSponsors{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	#height: 1000px;
+}
+
+.moreFunctions{
+	#background-color: blue;
+	display: block;
+}
+
+.moreFunctionIndividual{
+	background-color: #f4f4f4;
+	margin-bottom: 30px;
+}
+
+.moreFunctionImage{
+	width: inherit;
+	height: inherit;
+	background-color: red;
+}
+
+.mfunctionsImage{
+	width: 100%;
+}
+
+.moreFunctionsText{
+	margin: 0;
+}
+
+.moreFunctionsTitle{
+	margin: 35px 0px 15px 25px;
+}
+
+.moreFunctionsTitle a{
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 13pt;
+	color: #014452;
+}
+
+.moreFunctionsTitle a:hover{
+	color: #014452;
+	text-decoration: underline;
+}
+
+.moreFunctionsDescription{
+	margin: 15px 0px 15px 25px;
+}
+
+.moreFunctionsDescription p{
+	color: #666;
+	font-size: 12pt;
+}
+
+.moreFunctionsLearnMore{
+	margin: 15px 0px 15px 25px;
+}
+
+.moreFunctionsLearnMore button{
+	border-radius: 0;
+	color: #247182;
+	border: 2px solid #247182;
+}
+
+.moreFunctionsLearnMore button:hover{
+	color: white;
+	background-color: #247182;
+}
+
+.sponsorships{
+	height: inherit;
+}
+
+.sponsorText{
+	text-align: center;
+	font-style: italic;
+	font-size: 12pt
+}
+
+.sponsorImg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.sponsorImg img{
+	width: 100%;
 }
 
 .blogPostElems{
@@ -170,6 +301,19 @@ body{
 	margin-right: auto;
 }
 
+.readerSeeMore{
+	display: inline;
+	width: inherit;
+	background-color: yellow;
+	color: #014452;
+	text-decoration: none;
+}
+
+.readerSeeMore a:hover{
+	text-decoration: underline;
+	color: #014452;
+}
+
 .readerName{
 	background-color: blue;
 	height: inherit;
@@ -183,6 +327,32 @@ body{
 
 .author{
 	background-color: red;
+}
+
+.author p{
+	display: inline;
+}
+
+#authorName{
+	font-weight: bold;
+}
+
+.smallMediaLinks{
+	background-color: green;
+}
+
+.smallLinkForMedia{
+	height: 40px;
+	width: 40px;
+}
+
+.smallLinkForMedia img{
+	height: inherit;
+}
+
+#pitchWords{
+	color: #666;
+	font-size: 13pt;
 }
 
 .readerLink:hover{

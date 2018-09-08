@@ -276,6 +276,7 @@ body{
 	width: 85%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 80px;
 }
 
 #latestPosts{
@@ -363,8 +364,43 @@ body{
 	text-decoration: underline;
 }
 
+#imageDescriptor{
+	position: absolute;
+	color: #014452;
+	background-color: red;
+	font-size: 15pt;
+	border: 1px solid #014452;
+}
+
 #greatAmericanReadImg{
 	width: 100%;
+	height: 325px;
+	background-color: #e0e0e0;
+	padding-bottom: 75px;
+	padding-top: 75px;
+}
+
+.readerLearnMore{
+	background-color: yellow;
+}
+
+.readerCategories{
+	background-color: pink;
+}
+
+.someArticles{
+	width: 85%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+.smallerGreatReadsImg{
+	width: 100%;
+	background-color: #e0e0e0;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .uncPassport{

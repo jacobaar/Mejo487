@@ -123,7 +123,7 @@ body{
 	margin-top: 30px;
 }
 
-.sliderImageHolder:hover #rightArrow{
+.sliderImageHolder:hover #{
 	visibility: visible;
 }
 
@@ -276,7 +276,7 @@ body{
 	width: 85%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 }
 
 #latestPosts{
@@ -291,6 +291,7 @@ body{
 	padding-right: 15px;
 	margin-right: 10px;
 	border-color: #247182;
+	margin-bottom: 45px;
 }
 
 .categoryButton:hover{
@@ -299,38 +300,55 @@ body{
 	background-color: #247182;
 }
 
+.readerOfWeekText{
+	margin-left: 15px;
+}
+
 .readerOfTheWeek{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.readerSeeMore{
-	display: inline;
-	width: inherit;
-	background-color: yellow;
-	color: #014452;
+#learnMoreLink{
+	color: #247182;
 	text-decoration: none;
+	font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 13pt;
+	font-weight: bold;
 }
 
-.readerSeeMore a:hover{
+#learnMoreLink:hover{
 	text-decoration: underline;
 	color: #014452;
 }
 
+.readerLearnMore{
+	margin-bottom: 15px;
+	color: #247182;
+	text-decoration: none;
+	font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
 .readerName{
-	background-color: blue;
+	#background-color: blue;
+	font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 	height: inherit;
+	margin-bottom: 15px;
 }
 
 .readerLink{
 	color: #666;
-	font-size: 15pt;
+	font-size: 18pt;
 	text-decoration: none;
 }
 
 .author{
-	background-color: red;
+	#background-color: red;
+	font-size: 10pt;
+	margin-bottom: 15px;
 }
 
 .author p{
@@ -342,21 +360,29 @@ body{
 }
 
 .smallMediaLinks{
-	background-color: green;
+	#background-color: green;
+	margin-bottom: 15px;
 }
 
 .smallLinkForMedia{
 	height: 40px;
 	width: 40px;
+	margin-right: 7px;
 }
 
 .smallLinkForMedia img{
-	height: inherit;
+	height: 18px;
+	width: 18px;
+	border: 1px solid #ddd;
+	padding: 8px;
 }
 
 #pitchWords{
 	color: #666;
 	font-size: 13pt;
+	margin-bottom: 15px;
+	font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	#background-color: lightgrey;
 }
 
 .readerLink:hover{
@@ -364,12 +390,21 @@ body{
 	text-decoration: underline;
 }
 
+.greatReading{
+	overflow: hidden;
+}
+
 #imageDescriptor{
-	position: absolute;
-	color: #014452;
-	background-color: red;
-	font-size: 15pt;
-	border: 1px solid #014452;
+	position: relative;
+	bottom: 25px;
+	left: 45%;
+	color: #666;
+	background-color: white;
+	font-size: 12pt;
+	border: 1px solid #979797;
+	width: 60px;
+	text-align: center;
+	padding: 5px;
 }
 
 #greatAmericanReadImg{
@@ -380,12 +415,25 @@ body{
 	padding-top: 75px;
 }
 
-.readerLearnMore{
-	background-color: yellow;
+.readerCategories{
+	#background-color: pink;
 }
 
-.readerCategories{
-	background-color: pink;
+.readerCategory{
+	font-weight: bold;
+	font-size: 9pt;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 0;
+	border: 1px solid #247182;
+	margin-right: 10px;
+	color: #247182;
+	font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.readerCategory:hover{
+	color: white;
+	background-color: #247182;
 }
 
 .someArticles{
@@ -401,6 +449,33 @@ body{
 	background-color: #e0e0e0;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.articlePageNumbers{
+	text-align: center;
+}
+
+.articlePageNumber{
+	display: inline;
+	margin-left: 10px;
+	font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	color: #707070;
+}
+
+.articlePageEtc{
+	display: inline;
+	margin-left: 10px;
+	font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	color: #707070;
+}
+
+.articlePageEtc:hover{
+	cursor: pointer;
+}
+
+.articlePageNumber:hover{
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 .uncPassport{

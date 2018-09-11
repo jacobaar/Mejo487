@@ -201,7 +201,7 @@ body{
 .moreFunctionImage{
 	width: inherit;
 	height: inherit;
-	background-color: red;
+	#background-color: red;
 }
 
 .mfunctionsImage{

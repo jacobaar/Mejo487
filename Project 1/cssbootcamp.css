@@ -174,22 +174,23 @@ body{
 	width: 20%;
 	z-index: 1;
 	float: left;
-	bottom: 150px;
-	left: 200px;
+	position: absolute;
+	bottom: 100px;
+	left: 280px;
 }
 
 .mainEventText{
 	font-size: 30px;
 	font-weight: bold;
-	color: black;
+	color: white;
 }
 
 .mainEventTextDescription{
-	color: black;
+	color: white;
 }
 
 .mainEventTextLearnMore{
-	color: black;
+	color: white;
 	text-align: right;
 	font-weight: bold;
 }
@@ -701,6 +702,7 @@ body{
 		margin-bottom: 10px;
 		border-bottom: 1px solid #B3B3B3;
 		cursor: all-scroll;
+		position: initial;
 	}
 	
 	.mainEventText{
@@ -912,6 +914,7 @@ body{
 		margin-bottom: 10px;
 		border-bottom: 1px solid #B3B3B3;
 		cursor: all-scroll;
+		position: initial;
 	}
 	
 	.mainEventText{

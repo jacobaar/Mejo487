@@ -160,6 +160,31 @@ body{
 	z-index: 1;
 }
 
+.mainEventTextDiv{
+	#background-color: red;
+	width: 230px;
+	z-index: 1;
+	float: left;
+	bottom: 150px;
+	left: 200px;
+}
+
+.mainEventText{
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+}
+
+.mainEventTextDescription{
+	color: black;
+}
+
+.mainEventTextLearnMore{
+	color: black;
+	text-align: right;
+	font-weight: bold;
+}
+
 .functionCards{
 	clear: both;
 	display: flex;
@@ -609,6 +634,10 @@ body{
 	font-size: 1.6rem;
 }
 
+@media(max-width: 1024){
+	
+}
+
 @media(max-width: 767px){
 	.hamburgerMenu{
 		display: initial;
@@ -649,7 +678,7 @@ body{
 	
 	.mainEventImage{
 		width: 100%;
-		margin-top: 8px;
+		margin-top: 0px;
 	}
 	
 	#rightArrow{
@@ -657,6 +686,39 @@ body{
 	}
 	#leftArrow{
 		display: none;
+	}
+	
+	.mainEventTextDiv{
+		width: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #B3B3B3;
+		cursor: all-scroll;
+	}
+	
+	.mainEventText{
+		color: #247182;
+		margin-left: 10px;
+	}
+	
+	.mainEventTextDescription{
+		color: #247182;
+		margin-left: 10px;
+	}
+	
+	.mainEventTextLearnMore{
+		color: #247182;
+		margin-right: 10px;
+	}
+	
+	.mainEventTextLearnMore:hover{
+		cursor: pointer;
+	}
+	
+	.mainEventText:hover{
+		cursor: pointer;
 	}
 	
 	.sliderImageHolder{
@@ -676,6 +738,17 @@ body{
 	
 	.card{
 		width: inherit;
+	}
+	
+	.moreFunctionsText{
+		width: 100%;
+		height: 100%;
+		background-color: #f4f4f4;
+		margin-bottom: 10px;
+	}
+	
+	.moreFunctionIndividual{
+		background-color: white;
 	}
 	
 	.sponsorships{

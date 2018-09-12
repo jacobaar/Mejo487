@@ -148,6 +148,10 @@ body{
 	z-index: 1;
 }
 
+#rightArrow:hover{
+	cursor: pointer;
+}
+
 #leftArrow{
 	#background-color: red;
 	transform: scaleX(-1);
@@ -160,9 +164,14 @@ body{
 	z-index: 1;
 }
 
+#leftArrow:hover{
+	cursor: pointer;
+}
+
 .mainEventTextDiv{
 	#background-color: red;
-	width: 230px;
+	#width: 230px;
+	width: 20%;
 	z-index: 1;
 	float: left;
 	bottom: 150px;
@@ -634,8 +643,215 @@ body{
 	font-size: 1.6rem;
 }
 
-@media(max-width: 1024){
+@media (max-width: 1024px) and (min-width: 768px){
+	.hamburgerMenu{
+		display: initial;
+		border: 1px solid #247182;
+		border-radius: 0;
+		float: left;
+		margin: 15px;
+		margin-left: 10px;
+		padding: 5px 5px 5px 5px;
+	}
 	
+	.burgerBar{
+		height: 5px;
+		width: 32px;
+		background-color: #247182;
+		margin-bottom: 5px;
+	}
+	
+	.hamburgerMenu:hover{
+		border: 1px solid black;
+	}
+	
+	.hamburgerMenu:hover .burgerBar{
+		background-color: #222;
+	}
+	
+	.navigationLink{
+		display: none;
+	}
+	
+	.logoLink{
+		float: right;
+		height: 40px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	.mainEventImage{
+		width: 100%;
+		margin-top: 0px;
+	}
+	
+	#rightArrow{
+		display: none;
+	}
+	#leftArrow{
+		display: none;
+	}
+	
+	.mainEventTextDiv{
+		width: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #B3B3B3;
+		cursor: all-scroll;
+	}
+	
+	.mainEventText{
+		color: #247182;
+		margin-left: 10px;
+	}
+	
+	.mainEventTextDescription{
+		color: #247182;
+		margin-left: 10px;
+	}
+	
+	.mainEventTextLearnMore{
+		color: #247182;
+		margin-right: 10px;
+	}
+	
+	.mainEventTextLearnMore:hover{
+		cursor: pointer;
+	}
+	
+	.mainEventText:hover{
+		cursor: pointer;
+	}
+	
+	.sliderImageHolder{
+		width: inherit;
+	}
+	
+	.functionCards{
+		width: 100%;
+	}
+	
+	.function{
+		margin: 0;
+		margin-left: 20px;
+		margin-bottom: 7px;
+		height: 200px;
+		width: 200px;
+	}
+	
+	.card{
+		width: 100%;
+	}
+	
+	.moreFunctionsText{
+		width: 100%;
+		height: 100%;
+		background-color: #f4f4f4;
+		margin-bottom: 10px;
+	}
+	
+	.moreFunctionIndividual{
+		background-color: white;
+	}
+	
+	.sponsorships{
+		width: 100%;
+	}
+	
+	.sponsorImages{
+		margin-bottom: 20px;
+	}
+	
+	.sponsorImg{
+		width: 85%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	
+	.blogPostElems{
+		width: 100%;
+	}
+	
+	#greatAmericanReadImg{
+		height: 50%;
+		padding-bottom: 35px;
+		padding-top: 35px;
+	}
+	
+	#imageDescriptor{
+		left: 40%;
+	}
+	
+	.moreFunctionsAndSponsors{
+		width: 100%;
+	}
+	
+	.someArticles{
+		width: 100%;
+	}
+	
+	.smallerGreatReadsDiv{
+		width: 100%;
+	}
+	
+	.smallerGreatReadsDiv .readerLearnMore{
+		text-align: center;
+	}
+	
+	.learnMore1{
+		margin-bottom: 30px;
+	}
+	
+	.postCategoryButtons{
+		margin-bottom: 40px;
+	}
+	
+	.categoryButton{
+		margin-bottom: 10px;
+	}
+	
+	#passportImage{
+		height: 20%;
+		width: 100%;
+	}
+	
+	#passportDescription{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+	
+	.footer{
+		height: 100%;
+	}
+	
+	#businessAddress{
+		font-size: 10pt;
+		margin-left: 20px;
+		font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	}
+	
+	#biggerLogo{
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	
+	.optionsDiv{
+		display: inline-block;
+		width: 17%;
+		font-size: 11pt;
+	}
+	
+	.copyright{
+		display: flex;
+		justify-content: center;
+		margin-left: 5%;
+		width: 85%;
+	}
 }
 
 @media(max-width: 767px){
@@ -857,8 +1073,6 @@ body{
 	}
 	
 }
-
-
 
 
 

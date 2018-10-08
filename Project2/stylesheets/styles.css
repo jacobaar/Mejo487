@@ -8,6 +8,222 @@ body{
 	height: 100vh;
 }
 
+.content{
+	height: 100vh;
+}
+
+
+.slick-prev{
+	#position: absolute;
+	#top: 50%;
+	#font-size: 0pt;
+	#border-radius: 100%;
+	#visibility: hidden;
+}
+
+.slick-prev:after{
+	#font-size: 20pt;
+	#content: "<";
+	#color: #e4052a;
+}
+
+.slick-next{
+	position: absolute;
+	top: 50%;
+	left: 97%;
+	font-size: 0pt;
+	border-radius: 100%;
+	padding: 0px 5px;
+	visibility: hidden;
+}
+
+.slick-next:after{
+	font-size: 20pt;
+	content: ">";
+	color: #e4052a;
+}
+
+.slider:hover .slick-arrow{
+	visibility: visible;
+}
+
+.openingSlide{
+	background-color: black;
+}
+
 #openingImg{
 	width: inherit;
+	height: 100vh;
 }
+
+.pageHeader{
+	height: 12vh;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 4vh;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.hiringImg{
+	background-color: black;
+}
+
+.hiringImgBox{
+	margin-left: auto;
+	margin-right: auto;
+	width: 55vw;
+}
+
+.hiringDescription{
+	background-color: black;
+	height: 33vh;
+}
+
+.hiringDescription p{
+	width: 50vw;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+#namingImage{
+	height: 20vh;
+	width: 100vw;
+}
+
+#namingImage a{
+	margin-left: auto;
+	margin-right: auto;
+	height: inherit;
+}
+
+#namingImage img{
+	margin-left: auto;
+	margin-right: auto;
+	height: inherit;
+}
+
+#namingDescription{
+	height: 68vh;
+}
+
+.rolesImg{
+	height: 78vh;
+	width: 100%;
+	background-color: blue;
+}
+
+.rolesImg img{
+	height: inherit;
+	width: inherit;
+}
+
+.rolesDescription{
+	height: 10vh;
+	display: flex;
+    justify-content:space-between;
+	background-color: black;
+	color: white;
+}
+
+.engineDescription{
+	height: 68vh;
+	background-color: blue;
+}
+
+.engineImgs{
+	height: 20vh;
+	display: flex;
+    justify-content:space-between;
+	background-color: black;
+}
+
+.engineImgs img{
+	height: inherit;
+}
+
+.engineImgs a{
+	height: inherit;
+}
+
+#codingBody{
+	height: 88vh;
+	width: 100vw;
+}
+
+#codingImg{
+	height: inherit;
+	width: 50%;
+}
+
+#codingImg a{
+	height: inherit;
+	width: 100%;
+}
+
+#codingImg img{
+	height: inherit;
+	width: 100%;
+}
+
+#codingDescription{
+	height: inherit;
+	background-color: blue;
+	margin: 0;
+	width: 50%;
+}
+
+.finalizeDescription{
+	height: 68vh;
+	background-color: blue;
+}
+
+.finalizeImgs{
+	height: 20vh;
+	display: flex;
+    justify-content:space-between;
+	background-color: green;
+}
+
+.finalizeImgs img{
+	height: inherit;
+}
+
+.finalizeImgs a{
+	height: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

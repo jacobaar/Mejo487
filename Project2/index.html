@@ -5,24 +5,210 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Project 2</title>
-		<meta name="description" content="The HTML5 Herald">
+		<title>The Workflow of Game Development</title>
+		<meta name="description" content="Project 2">
 		<meta name="author" content="SitePoint">
 
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/">
+		<link rel="stylesheet" type = "text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+		<link rel = "stylesheet" type = "text/css" href = "scripts/lightbox2-master/lightbox2-master/src/css/lightbox.css">
 		<link rel="stylesheet" type="text/css" href="scripts/slick-1.8.1/slick-1.8.1/slick/slick.css"/>
 		<link rel="stylesheet" href="stylesheets/styles.css">
 	</head>
 
 	<body>
 		
-		
 		<div class="slider">
-			<div class = "content">
-				<img id = "openingImg" src = "images/openingWallpaper.jpg">
+			<div class = "content openingSlide">
+				<img id = "openingImg" src = "images/openingWallpaper2.png">
 			</div>
 			
-			<div class = "content">your content 2</div>
-			<div class = "content">your content 3</div>
+			<div class = "content hiringSlide">
+				<div class = "rows pageHeader">
+					The Hiring Process - Gathering Your Team
+				</div>
+				<div class = "rows hiringImg">
+					<a class = "hiringImgBox" href = "images/partySelect.jpg" data-lightbox = "hiringImg" data-title = "Kingdom Hearts Party Select Menu<br>Square Enix Co., Ltd.<br>2002.">
+						<img class = "hiringImgBox" src = "images/partySelect.jpg">
+					</a>
+				</div>
+				<div class = "rows hiringDescription">
+					<p>The first step in the process is getting your team together. 
+					Without a team, the entire project falls on your shoulders and nobody wants that. 
+					Would the world have been saved without the Avengers? I don’t think so. 
+					Having a team will allow the work to be divided equally and each member can 
+					focus on specific aspects of the game such as Music, Art, etc.</p>
+				</div>
+			</div>
+			
+			<div class = "content namingSlide">
+				<div class = "rows pageHeader">
+					Creating Your Company Name
+				</div>
+				<div class = "rows" id = "namingImage">
+					<a href = "averyonLogo.jpg" data-lightbox = "namingImg" data-title = "Averyon Studios Logo<br>Stevin Harbinger<br>2018">
+						<img src = "averyonLogo.png">
+					</a>
+				</div>
+				<div class = "rows" id = "namingDescription">
+					Before getting into the deep details of a game you want your 
+					development studio to have a presence. A name you can put on the game to make your mark. 
+					It’s time to stake your claim!”
+				</div>
+			</div>
+			
+			<div class = "content envisionSlide">
+				<div class = "rows pageHeader">
+					Developing Your Vision
+				</div>
+				<div class = "rows envisionImg">
+					<a href = "images/imagination.jpg" data-lightbox = "envisionImg" data-title = "Spongebob Imagination<br>Nickelodeon<br>2004.">
+						<img src = "images/imagination.jpg">
+					</a>
+				</div>
+				<div class = "rows envisionDescription">
+					Now that you’ve gotten everything together it’s time to design your vision. 
+					Flesh out the gameplay ideas, story, etc. 
+					THIS is the moment you’ve been preparing for ever since you decided wanted to make a game two months ago. 
+					Go big or go home.
+				</div>
+			</div>
+			
+			<div class = "content rolesSlide">
+				<div class = "rows pageHeader">
+					Divide Your Roles
+				</div>
+				<div class = "rows rolesImg">
+					<img src = "images/genrePicker2.png">
+				</div>
+				<div class = "rows rolesDescription">
+					Now that you have your people and developed your vision, it’s time to take on the development stages. 
+					Each member should begin working on their respective aspects. 
+					Have each person create a development schedule that works for them. 
+					Nothing is worse than being stuck in "Development Hell."
+				</div>
+			</div>
+			
+			<div class = "content artSlide">
+				<div class = "rows pageHeader">
+					Create the Art
+				</div>
+				<div class = "rows artImgs">
+					<a href = "vergil.jpg" data-lightbox = "artImg" data-title = "Vergil<br>By: Ryan Gilfillan<br>2018">
+						<img src = "vergil.jpg">
+					</a>
+				</div>
+				<div class = "rows artDescription">
+					Have your artist start taking that vision and developing some concept art. 
+					Concept art is a good way to get everyone in the studio on the same page as to what the world will look like. 
+					It also helps to help develop nail down the tone of the game.
+				</div>
+			</div>
+			
+			<div class = "content musicSlide">
+				<div class = "rows pageHeader">
+					Create the Music
+				</div>
+				<div class = "rows musicImg">
+					<a href = "images/ocarina.png" data-lightbox = "musicImg" data-title = "Ocarina of Time">
+						<img src = "images/ocarina.png">
+					</a>
+				</div>
+				<div class = "rows musicDescription">
+					Art isn’t the only thing that develops the tone of a game. 
+					Music is a huge component that can really make or break a game’s style. Have your Music director begin to create music concepts. 
+					They don’t have to be long, maybe 30 seconds tops. Having those clips allows the music director and 
+					the rest of the team to pick and choose which pieces they like best.
+				</div>
+			</div>
+			
+			<div class = "content engineSlide">
+				<div class = "rows pageHeader">
+					Selecting Your Engine
+				</div>
+				<div class = "rows engineDescription">
+					Now that the other fields are on their way, it’s time to start coding. 
+					BUT before you begin coding you have to decide which engine you would like to use to get your game going. 
+					There a bunch of different engines you can use that are prebuilt or you can make your own. 
+					It’s entirely up to you.
+				</div>
+				<div class = "rows engineImgs">
+					<a href = "images/cryEngine2.png" data-lightbox = "engineImg" data-title = "CryEngine 3 Logo<br>Crytek<br>2011.">
+						<img src = "images/cryEngine.png">
+					</a>
+					<a href = "images/unreal4.png" data-lightbox = "engineImg" data-title = "Unreal Engine 4 Logo<br>Epic Games<br>2014.">
+						<img src = "images/unreal4.png">
+					</a>
+					<a href = "images/unityLogo.png" data-lightbox = "engineImg" data-title = "Unity Engine<br>Unity Technologies<br>2005.">
+						<img src = "images/unityLogo2.png">
+					</a>
+				</div>
+			</div>
+			
+			<div class = "content codingSlide">
+				<div class = "rows pageHeader">
+					Beginning Your Code
+				</div>
+				<div class = "rows" id = "codingBody">
+					<div class = "six columns" id = "codingImg">
+						<a href = "images/code2.png" data-lightbox = "codingImg" data-title = "A Code Snippet From One of My Projects<br>Aaron Hougui<br>2017.">
+							<img src = "images/code2.png">
+						</a>
+					</div>
+					<div class = "six columns" id = "codingDescription">
+						Now that you’ve picked your engine, it’s time to actually begin coding your game. 
+						Start by working on basic gameplay mechanics and work from there. 
+						Take each gameplay component as its own project and don’t try to do too much at once. 
+						Small steps is key.
+					</div>	
+				</div>
+			</div>
+			
+			<div class = "content playtestSlide">
+				<div class = "rows pageHeader">
+					Playtesting
+				</div>
+				<div class = "rows playtestImg">
+					<a href = "images/playtesting.jpg" data-lightbox = "playtestImg" data-title = "Playtesting Image<br>2018.">
+						<img src = "images/playtesting.jpg">
+					</a>
+				</div>
+				<div class = "rows playtestDescription">
+					Now that you’ve got everything moving, your game is ready to go into beta. 
+					Playtesting is key in order to get enough feedback to make your game good. 
+					Get as much feedback as possible
+				</div>
+			</div>
+			
+			<div class = "content finalizeSlide">
+				<div class = "rows pageHeader">
+					Finalize Your Product
+				</div>
+				<div class = "rows finalizeDescription">
+					You’ve gotten your feedback and your assets. Now it’s time to push to market. 
+					Tidy up any loose ends, bugs, etc. and get ready to make that sucker public.
+				</div>
+				<div class = "rows finalizeImgs">
+					<a href = "images/chronoggLogo.png" data-lightbox = "finalizeImg" data-title = "Chrono.gg Logo<br>Chrono.gg<br>2016.">
+						<img src = "images/chronoggLogo.png">
+					</a>
+					<a href = "images/steamLogo.png" data-lightbox = "finalizeImg" data-title = "Steam Logo<br>Valve Corporation<br>2003.">
+						<img src = "images/steamLogo.png">
+					</a>
+					<a href = "images/gameJoltLogo.png" data-lightbox = "finalizeImg" data-title = "GameJolt Logo<br>Lucent Web Creative, LLC<br>2004.">
+						<img src = "images/gameJoltLogo.png">
+					</a>
+				</div>
+			</div>
+			
+			<div class = "content quizSlide">
+				<div class = "rows pageHeader">
+					Quiz
+				</div>
+			</div>
+			
+			
 		</div>
 
 		
@@ -32,13 +218,10 @@
 	
 		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 		<script type="text/javascript" src= "scripts/slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
-		
-		<!--<script type="text/javascript">
-			$(document).ready(function(){
-				$('.slider').slick();
-			});
-		</script>-->
-		
+		<script type="text/javascript" src="scripts/SlickQuiz-master/SlickQuiz-master/js/slickQuiz-config.js"></script>
+        <script type="text/javascript" src="scripts/SlickQuiz-master/SlickQuiz-master/js/slickQuiz.js"></script>
+        <script type="text/javascript" src="scripts/SlickQuiz-master/SlickQuiz-master/js/master.js"></script>
+		<script type="text/javascript" src = "scripts/lightbox2-master/lightbox2-master/src/js/lightbox.js"></script>
 		<script type = "text/javascript" src="scripts/scripts.js"></script>
 	</body>
 	

@@ -463,12 +463,21 @@ label, legend {
 
 
 
-
-
-
-
-
-
+@media (max-width: 800px) and (min-width: 768px){
+	.slick-next{
+		left: 95%;		
+	}
+	
+	.engineDescription{
+		height: 88vh;
+		font-size: 1.5vw;
+	}
+	
+	.finalizeDescription{
+		height: 88vh;
+		font-size: 1.5vw;
+	}
+}
 
 
 
@@ -509,6 +518,56 @@ label, legend {
 	}
 	#quizImg{
 		display: none;
+	}
+	
+	.hiringDescription{
+		height: 88vh;
+	}
+	
+	#namingDescription{
+		height: 88vh;
+	}
+	
+	.envisionDescription{
+		height: 88vh;
+	}
+	
+	.rolesDescription{
+		height: 88vh;
+	}
+	
+	#artDescription{
+		width: 100vw;
+	}
+	
+	.musicDescription{
+		height: 88vh;
+	}
+	
+	.engineDescription{
+		height: 88vh;
+		font-size: 2.5vw;
+	}
+	
+	.codingDescription{
+		height: 88vh;
+	}
+	.playtestDescription{
+		height: 88vh;
+	}
+	.finalizeDescription{
+		height: 88vh;
+		font-size: 2.5vw;
+	}
+	
+	.answers{
+		float: right;
+		margin-right: 20px;
+	}
+	
+	.nextQuestion{
+		float: right;
+		margin-right: 20px;
 	}
 	
 	

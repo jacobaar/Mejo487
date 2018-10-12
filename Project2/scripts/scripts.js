@@ -4,7 +4,15 @@ var slider = $(document).ready(function(){
   });
 });
 
-//$('.slick-prev').hide();
+$( document ).ready(function() {
+    $('.slick-prev').hide();
+});
+
+$(function () {
+    $('#slickQuiz').slickQuiz({
+        // options
+    });
+});
 
 slider.on('afterChange', function(event, slick, currentSlide){
 	if (currentSlide === 0) {
@@ -19,9 +27,5 @@ slider.on('afterChange', function(event, slick, currentSlide){
 	  $('.slick-prev').show();
       $('.slick-next').show();
 	}
-});
-
-$(document).ready(function(){
-	$('.quizSlide').slickQuiz();
 });
 

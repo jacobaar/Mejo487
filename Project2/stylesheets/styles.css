@@ -1,11 +1,14 @@
 body{
 	margin: 0;
-	#overflow: hidden;
+	overflow-x: hidden;
+	background-color: black;
+	color: white;
 }
 
 .slider{
 	width: 100%;
 	height: 100vh;
+	background-color: black;
 }
 
 .content{
@@ -14,27 +17,31 @@ body{
 
 
 .slick-prev{
-	#position: absolute;
-	#top: 50%;
-	#font-size: 0pt;
-	#border-radius: 100%;
-	#visibility: hidden;
+	position: absolute;
+	top: 50%;
+	font-size: 0pt;
+	border-radius: 100%;
+	padding: 0px 5px 0px 0px;
+	visibility: hidden;
+	z-index: 1000;
+	border: 2px solid #e4052a;
 }
 
 .slick-prev:after{
-	#font-size: 20pt;
-	#content: "<";
-	#color: #e4052a;
+	font-size: 20pt;
+	content: "<";
+	color: #e4052a;
 }
 
 .slick-next{
 	position: absolute;
 	top: 50%;
-	left: 97%;
+	left: 97.5%;
 	font-size: 0pt;
 	border-radius: 100%;
 	padding: 0px 5px;
 	visibility: hidden;
+	border: 2px solid #e4052a;
 }
 
 .slick-next:after{
@@ -43,8 +50,23 @@ body{
 	color: #e4052a;
 }
 
+.slick-arrow:active, 
+ .slick-arrow:focus 
+ {
+     border: 2px solid #e4052a;
+     color:#e4052a;
+  }
+
 .slider:hover .slick-arrow{
 	visibility: visible;
+}
+
+.slick-prev:hover{
+	border: 2px solid #e4052a;
+}
+
+.slick-next:hover{
+	border: 2px solid #e4052a;
 }
 
 .openingSlide{
@@ -66,13 +88,17 @@ body{
 }
 
 .hiringImg{
+	height: 60vh;
 	background-color: black;
+	display: flex;
+	justify-content: center;
 }
 
 .hiringImgBox{
-	margin-left: auto;
-	margin-right: auto;
+	#margin-left: auto;
+	#margin-right: auto;
 	width: 55vw;
+	height: inherit;
 }
 
 .hiringDescription{
@@ -81,35 +107,85 @@ body{
 }
 
 .hiringDescription p{
-	width: 50vw;
+	width: 65vw;
 	margin-left: auto;
 	margin-right: auto;
 	color: white;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 #namingImage{
-	height: 20vh;
+	height: 50vh;
 	width: 100vw;
+	background-color: black;
+	display: flex;
+	justify-content: center;
 }
 
 #namingImage a{
-	margin-left: auto;
-	margin-right: auto;
+	#margin-left: auto;
+	#margin-right: auto;
 	height: inherit;
 }
 
 #namingImage img{
-	margin-left: auto;
-	margin-right: auto;
+	#margin-left: auto;
+	#margin-right: auto;
 	height: inherit;
 }
 
 #namingDescription{
-	height: 68vh;
+	height: 38vh;
+	background-color: black;
+}
+
+#namingDescription p{
+	width: 65vw;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;	
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.envisionImg{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	height: 50vh;
+}
+
+.envisionImg a{
+	height: inherit;
+}
+
+.envisionImg img{
+	height: inherit;
+}
+
+.envisionDescription{
+	background-color: black;
+	color: white;
+	height: 38vh;
+}
+
+.envisionDescription p{
+	width: 65vw;
+	margin-left: auto;
+	margin-right: auto;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .rolesImg{
-	height: 78vh;
+	height: 50vh;
 	width: 100%;
 	background-color: blue;
 }
@@ -120,16 +196,101 @@ body{
 }
 
 .rolesDescription{
-	height: 10vh;
-	display: flex;
-    justify-content:space-between;
+	height: 38vh;
 	background-color: black;
 	color: white;
 }
 
+.rolesDescription p{
+	width: 65vw;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#artBody{
+	height: 88vh;
+	width: 100vw;
+}
+
+#artImg{
+	height: inherit;
+}
+
+#artImg a{
+	height: inherit;
+	width: 100%;
+}
+
+#artImg img{
+	height: inherit;
+	width: 100%;
+}
+
+#artDescription{
+	height: inherit;
+	background-color: black;
+	margin: 0;
+	#width: 50%;
+}
+
+#artDescription p{
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.musicImg{
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+}
+
+.musicImg a{
+	height: inherit;
+}
+
+.musicImg img{
+	height: inherit;
+}
+
+.musicDescription{
+	height: 38vh;
+}
+
+.musicDescription p{
+	width: 65vw;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .engineDescription{
 	height: 68vh;
-	background-color: blue;
+}
+
+.engineDescription p{
+	width: 65vw;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .engineImgs{
@@ -152,46 +313,151 @@ body{
 	width: 100vw;
 }
 
-#codingImg{
-	height: inherit;
-	width: 50%;
+.codingImg{
+	height: 50vh;
+	display: flex;
+	justify-content: center;
 }
 
-#codingImg a{
+.codingImg a{
 	height: inherit;
-	width: 100%;
+	#width: 100%;
 }
 
-#codingImg img{
+.codingImg img{
 	height: inherit;
-	width: 100%;
+	#width: 100%;
 }
 
-#codingDescription{
+.codingDescription{
+	height: 38vh;
+}
+
+.codingDescription p{
+	width: 65vw;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
 	height: inherit;
-	background-color: blue;
-	margin: 0;
-	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.playtestImg{
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+}
+
+.playtestImg a{
+	height: inherit;
+	#width: 100%;
+}
+
+.playtestImg img{
+	height: inherit;
+	#width: 100%;
+}
+
+.playtestDescription{
+	height: 38vh;
+}
+
+.playtestDescription p{
+	width: 65vw;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .finalizeDescription{
 	height: 68vh;
-	background-color: blue;
+	background-color: black;
+}
+
+.finalizeDescription p{
+	width: 65vw;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .finalizeImgs{
 	height: 20vh;
 	display: flex;
     justify-content:space-between;
-	background-color: green;
-}
-
-.finalizeImgs img{
-	height: inherit;
+	background-color: black;
 }
 
 .finalizeImgs a{
 	height: inherit;
+	width: 15vw;
+}
+
+.finalizeImgs img{
+	height: inherit;
+	width: inherit;
+}
+
+.quizName{
+	font-family: 'Press Start 2P', cursive;
+}
+
+label, legend {
+    display: inline;
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+
+#quizImg{
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#artImg a{
+	height: inherit;
+	width: 100%;
+}
+
+#quizImg img{
+	height: 50%;
+	width: 100%;
+}
+
+.quizName{
+	color: #e4052a;
+}
+
+.startQuiz{
+	border: 1px solid white;
+	color: white;
+	background-color: #e4052a;
+	border-radius: 5%;
+	padding: 10px;
+}
+
+.startQuiz:hover{
+	color: white;
+}
+
+.checkAnswer, .nextQuestion{
+	background-color: #e4052a;
+}
+
+.checkAnswer:hover, .nextQuestion:hover{
+	background-color: #e4052a;
+	color: black;
 }
 
 
@@ -203,6 +469,51 @@ body{
 
 
 
+
+
+
+@media(max-width: 767px){	
+	.slick-next{
+		left: 92%;
+	}
+
+	.hiringImg{
+		display: none;
+	}	
+	#namingImage{
+		display: none;
+	}
+	.envisionImg{
+		display: none;
+	}
+	.rolesImg{
+		display: none;
+	}
+	#artImg{
+		display: none;
+	}
+	.musicImg{
+		display: none;
+	}
+	.engineImgs{
+		display: none;
+	}
+	.codingImg{
+		display: none;
+	}
+	.playtestImg{
+		display: none;
+	}
+	.finalizeImgs{
+		display: none;
+	}
+	#quizImg{
+		display: none;
+	}
+	
+	
+	
+}
 
 
 

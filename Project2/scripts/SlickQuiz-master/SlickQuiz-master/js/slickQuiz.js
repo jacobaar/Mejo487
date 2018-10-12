@@ -26,7 +26,7 @@
                 preventUnansweredText: 'You must select at least one answer.',
                 questionTemplateText:  '%count. %text',
                 scoreTemplateText: '%score / %total',
-                nameTemplateText:  '<span>Quiz: </span>%name',
+                nameTemplateText:  '<span></span>%name',
                 skipStartButton: false,
                 numberOfQuestions: null,
                 randomSortQuestions: false,

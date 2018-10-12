@@ -4,69 +4,71 @@
 
 var quizJSON = {
     "info": {
-        "name":    "Test Your Knowledge!!",
-        "main":    "<p>Think you're smart enough to be on Jeopardy? Find out with this super crazy knowledge quiz!</p>",
-        "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
-        "level1":  "Jeopardy Ready",
-        "level2":  "Jeopardy Contender",
-        "level3":  "Jeopardy Amateur",
-        "level4":  "Jeopardy Newb",
-        "level5":  "Stay in school, kid..." // no comma here
+        "name":    "Let's see what you've learned.",
+        "main":    "<p>This test will determine just how ready you are to enter the gamingspace as a developer.</p>",
+        "results": "<h5>To Learn More:</h5><p>Check back through the slides to get a better feel for how the development cycle works.</p>",
+        "level1":  "I'm convinced you are already a Game Developer",
+        "level2":  "Huh... Do you do this in your spare time?",
+        "level3":  "I have a feeling you're an intern.",
+        "level4":  "You may just have some potential",
+        "level5":  "Keep your day job friendo..." // no comma here
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "What number is the letter A in the English alphabet?",
+            "q": "Which step has you planning the nitty-gritty details of your game?",
             "a": [
-                {"option": "8",      "correct": false},
-                {"option": "14",     "correct": false},
-                {"option": "1",      "correct": true},
-                {"option": "23",     "correct": false} // no comma here
+                {"option": "Coding Stage",      "correct": false},
+                {"option": "Envision Stage",     "correct": true},
+                {"option": "Choosing your Engine Stage",      "correct": false},
+                {"option": "Naming Stage",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>That's right!</span> The letter A is the first letter in the alphabet!</p>",
-            "incorrect": "<p><span>Uhh no.</span> It's the first letter of the alphabet. Did you actually <em>go</em> to kindergarden?</p>" // no comma here
+            "correct": "<p><span>YES!!!</span> The Envision Stage is the time for you to decide on as many details as you can. Don't be afraid to go as detailed as possible!</p>",
+            "incorrect": "<p><span>You tried... I guess.</span> It's the Envision Stage. This is the ONLY stage where you should be focusing on the nitty-gritty details.</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "Which of the following best represents your preferred breakfast?",
+            "q": "What's the best way to ensure the quality of your game?",
             "a": [
-                {"option": "Bacon and eggs",               "correct": false},
-                {"option": "Fruit, oatmeal, and yogurt",   "correct": true},
-                {"option": "Leftover pizza",               "correct": false},
-                {"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
+                {"option": "Coding",               "correct": false},
+                {"option": "Playtesting",   "correct": true},
+                {"option": "Envisioning",               "correct": false},
+                {"option": "Art Direction", "correct": false} // no comma here
             ],
             "select_any": true,
-            "correct": "<p><span>Nice!</span> Your cholestoral level is probably doing alright.</p>",
-            "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options.</p>" // no comma here
+            "correct": "<p><span>YES!!!</span> Playtesting is the best way to ensure quality. By playtesting, players can give you valuable feedback on pieces of the game that work and don't work.</p>",
+            "incorrect": "<p><span>You tried... I guess</span> Nope! The playtesting is the best way to quality test your game. The playtesting stage is where QA testing happens.</p>" // no comma here
         },
         { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": "Where are you right now? Select ALL that apply.",
+            "q": "How should you choose your studio name and logo?",
             "a": [
-                {"option": "Planet Earth",           "correct": true},
-                {"option": "Pluto",                  "correct": false},
-                {"option": "At a computing device",  "correct": true},
-                {"option": "The Milky Way",          "correct": true} // no comma here
+                {"option": "Choosing something unique",           "correct": true},
+                {"option": "Randomly",                  "correct": false},
+                {"option": "Choosing something common",  "correct": false},
+                {"option": "Choosing something memorable",          "correct": true} // no comma here
             ],
-            "correct": "<p><span>Brilliant!</span> You're seriously a genius, (wo)man.</p>",
-            "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>" // no comma here
+            "correct": "<p><span>YES!!!</span> Unique and memorable are the best way to be remembered.</p>",
+            "incorrect": "<p><span>You tried... I guess.</span> Nope! You want to be unique and memorable. This way people will know exactly who you are.</p>" // no comma here
         },
         { // Question 4
-            "q": "How many inches of rain does Michigan get on average per year?",
+            "q": "How should you go about picking your engine?",
             "a": [
-                {"option": "149",    "correct": false},
-                {"option": "32",     "correct": true},
-                {"option": "3",      "correct": false},
-                {"option": "1291",   "correct": false} // no comma here
+                {"option": "Choosing something that fits your needs.",    "correct": true},
+                {"option": "If a good one isn't available, make your own.",     "correct": true},
+                {"option": "Choose the first one you find.",      "correct": false},
+                {"option": "Pick the one that comes highly recommended by someone you know who.",   "correct": false} // no comma here
             ],
-            "correct": "<p><span>Holy bananas!</span> I didn't actually expect you to know that! Correct!</p>",
-            "incorrect": "<p><span>Fail.</span> Sorry. You lose. It actually rains approximately 32 inches a year in Michigan.</p>" // no comma here
+            "correct": "<p><span>YES!!!</span> Bingo! You need an engine that fits your needs. If one doesn't exist, make one. EZ.</p>",
+            "incorrect": "<p><span>You tried... I guess.</span> You want one that fits your needs. Picking the first one or going with one based on a recommendation doesn't always work.</p>" // no comma here
         },
         { // Question 5
-            "q": "Is Earth bigger than a basketball?",
+            "q": "Which stage of Game Development yields satisfaction?",
             "a": [
-                {"option": "Yes",    "correct": true},
-                {"option": "No",     "correct": false} // no comma here
+                {"option": "Naming Stage",    "correct": true},
+                {"option": "Finalization Stage",     "correct": true},
+                {"option": "Playtesting Stage",     "correct": true},
+                {"option": "Coding Stage",     "correct": true} // no comma here
             ],
-            "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
-            "incorrect": "<p><span>ERRRR!</span> What planet Earth are <em>you</em> living on?!?</p>" // no comma here
+            "correct": "<p><span>YES!!!</span> Yes! Exactly! You have to be proud and satisfied with the work you do the entire way through. If you're not satisfied, then how can players be satisfied?</p>",
+            "incorrect": "<p><span>You tried... I guess.</span> Mmmmm close but not quite. You must be satisfied with your work the entire time you are working. If you aren't, something needs to be addressed.</p>" // no comma here
         } // no comma here
     ]
 };

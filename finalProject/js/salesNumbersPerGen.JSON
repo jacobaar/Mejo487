@@ -1,0 +1,34 @@
+[
+  {
+    "ConsoleName": "Coleco Telstar - Gen1",
+    "SalesNumbers": "1000000"
+  },
+  {
+    "ConsoleName": "Atari 2600 - Gen2",
+    "SalesNumbers": "30000000"
+  },
+  {
+    "ConsoleName": "Famicom (NES) - Gen3",
+    "SalesNumbers": "61910000"
+  },
+  {
+    "ConsoleName": "Super Famicom (SNES) - Gen4",
+    "SalesNumbers": "49100000"
+  },
+  {
+    "ConsoleName": "Playstation 1 - Gen5",
+    "SalesNumbers": "102490000"
+  },
+  {
+    "ConsoleName": "Playstation 2 - Gen6",
+    "SalesNumbers": "155000000"
+  },
+  {
+    "ConsoleName": "Nintendo Wii - Gen7",
+    "SalesNumbers": "101630000"
+  },
+  {
+    "ConsoleName": "Playstation 4 - Gen8",
+    "SalesNumbers": "70600000"
+  }
+]

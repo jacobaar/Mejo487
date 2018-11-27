@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import 'https://code.highcharts.com/css/highcharts.css';
+
+body{
+	background-color: black;
+	margin: 0;
+	color: white;
+	overflow-x: hidden;
+}
+
+header{
+	width: 100vw;
+	height: 20vh;
+	background-color: #730912;
+	background-image: url("../images/board.jpg");
+	background-size: cover;
+}
+
+#headerInfo{
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 0;
+}
+
+#headerTitle{
+	color: white;
+	font-family: 'Share Tech', sans-serif;
+	font-size: 40pt;
+	/* height: inherit; */
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* justify-content: center; */
+	margin-bottom: 0;
+}
+
+#headerSubTitle{
+	margin-bottom: 0;
+	color: white;
+	font-size: 8pt;
+	font-family: 'Roboto Mono', monospace;
+}
+
+#headerImg{
+	width: inherit;
+	height: inherit;
+}
+
+.highcharts-color-0{
+  fill: #730912;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.highcharts-background{
+	fill: black;
+}
+
+.highcharts-axis-labels text{
+	fill: white !important;
+}
+
+.highcharts-title{
+	fill: white !important;
+}
+
+.highcharts-subtitle{
+	fill: white !important;
+}
+
+.chartBlurb{
+	font-family: 'Roboto Mono', monospace;
+}
+
+footer{
+	background-color: #730912;
+	position: absolute;
+	bottom: 0;
+	height: 15vh;
+	width: 100vw;
+}

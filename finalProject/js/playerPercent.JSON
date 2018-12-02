@@ -1,0 +1,18 @@
+[
+  {
+    "AgeGroup": "Under 18",
+    "PercentageofPlayers": 28
+  },
+  {
+    "AgeGroup": "18 to 35",
+    "PercentageofPlayers": 29
+  },
+  {
+    "AgeGroup": "36 to 49",
+    "PercentageofPlayers": 20
+  },
+  {
+    "AgeGroup": "Over 50",
+    "PercentageofPlayers": 23
+  }
+]

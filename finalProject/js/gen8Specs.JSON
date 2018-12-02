@@ -1,0 +1,72 @@
+[
+  {
+    "ConsoleName": "Xbox One",
+    "CPU": "1.75GHz 8-core AMD custom Jaguar CPU",
+    "GPU": "Integrated AMD graphics clocked at 853MHz with 1.31 teraflops of performance",
+    "RAM": "8GB DDR3",
+    "Storage": "500GB (5,400rpm) hard drive, supports external hard drive storage",
+    "Networking": "Gigabit Ethernet, Wi-Fi A/B/G/N 2.4GHz and 5GHz",
+    "have4KSupport": "No",
+    "ReleaseDate": "22-Nov-13"
+  },
+  {
+    "ConsoleName": "Xbox One S",
+    "CPU": "1.75GHz 8-core AMD custom Jaguar CPU",
+    "GPU": "Integrated AMD graphics clocked at 914MHz",
+    "RAM": "8GB DDR3",
+    "Storage": "500GB, 1TB, 2TB (5,400rpm) hard drive options, supports external hard drive storage",
+    "Networking": "Gigabit Ethernet, Wi-Fi A/B/G/N/AC 2.4GHz and 5GHz",
+    "have4KSupport": "Yes (video playback only)",
+    "ReleaseDate": "2-Aug-16"
+  },
+  {
+    "ConsoleName": "Xbox One X",
+    "CPU": "2.3GHz 8-core AMD custom Jaguar CPU",
+    "GPU": "Integrated AMD graphics with 6 teraflops of performance",
+    "RAM": "12GB GDDR5",
+    "Storage": "1TB hard drive",
+    "Networking": "Gigabit Ethernet, 802.11ac dual band 2.4GHz and 5GHz",
+    "have4KSupport": "Yes",
+    "ReleaseDate": "7-Nov-17"
+  },
+  {
+    "ConsoleName": "Playstation 4",
+    "CPU": "1.6GHz 8-core AMD custom Jaguar CPU",
+    "GPU": "Integrated AMD graphics clocked at 800MHz with 1.84 teraflops of performance",
+    "RAM": "8GB GDDR5",
+    "Storage": "500GB (5,400rpm) hard drive. Storage drive can be swapped",
+    "Networking": "Gigabit Ethernet, 802.11 B/G/N, 2.4GHz, Bluetooth 2.1",
+    "have4KSupport": "No",
+    "ReleaseDate": "15-Nov-13"
+  },
+  {
+    "ConsoleName": "Playstation 4 Slim",
+    "CPU": "1.6GHz 8-core AMD custom Jaguar CPU",
+    "GPU": "Integrated AMD graphics clocked at 800MHz with 1.84 teraflops of performance",
+    "RAM": "8GB GDDR5",
+    "Storage": "500GB (5,400rpm) hard drive. Storage drive can be swapped",
+    "Networking": "Gigabit Ethernet, 802.11 B/G/N/AC, Bluetooth 4.0",
+    "have4KSupport": "No",
+    "ReleaseDate": "15-Sep-16"
+  },
+  {
+    "ConsoleName": "Playstation 4 Pro",
+    "CPU": "2.1GHz 8-core AMD custom Jaguar CPU",
+    "GPU": "Integrated AMD Polaris graphics with 4.2 teraflops of performance",
+    "RAM": "8GB GDDR5",
+    "Storage": "1TB",
+    "Networking": "Gigabit Ethernet,\n802.11A/B/G/N/AC Wi-Fi, Bluetooth 4.0",
+    "have4KSupport": "Yes",
+    "ReleaseDate": "10-Nov-16"
+  },
+  {
+    "ConsoleName": "Nintendo Switch",
+    "CPU": "1020MHz Nvidia custom Tegra SOC",
+    "GPU": "768MHz (docked)/307.2MHz (undocked) Nvidia custom Tegra SOC",
+    "RAM": "4GB",
+    "Storage": "32GB. Storage can be expanded via MicroSDXC card.",
+    "Networking": "Wireless LAN (IEEE 802.11 a/b/g/n/ac compliant) / Bluetooth 4.1 (TV mode only. A wired LAN connection is possible through the use of a commercially available wired LAN adapter.)",
+    "have4KSupport": "No",
+    "ReleaseDate": "3-Mar-17"
+  }
+]

@@ -17,12 +17,37 @@ header{
 	background-size: cover;
 }
 
+footer{
+	width: 100vw;
+	height: 20vh;
+	background-color: #730912;
+	background-image: url("../images/board.jpg");
+	background-size: cover;
+}
+
 #headerInfo{
 	height: inherit;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	margin-bottom: 0;
+	float: left;
+}
+
+.navigationLink{
+	float: right;
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+}
+
+.button{
+	background-color: #730912;
+}
+
+.button a{
+	color: white;
+	font-family: 'Roboto Mono', monospace;
 }
 
 #headerTitle{
@@ -48,36 +73,196 @@ header{
 	height: inherit;
 }
 
+.slick-next{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.slick-arrow{
+	background-color: #730912;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.slick-arrow:active, 
+ .slick-arrow:focus 
+ {
+    color: white;
+ }
+ 
+ .slick-arrow:hover{
+	 color: white;
+ }
+
 .highcharts-color-0{
   fill: #730912;
   font-size: 26px;
   font-weight: bold;
 }
 
+.highcharts-color-2{
+	fill: white;
+}
+
+.highcharts-color-3{
+	fill: #000080;
+}
+
 .highcharts-background{
 	fill: black;
 }
 
-.highcharts-axis-labels text{
+.highcharts-axis text, .highcharts-axis-labels text{
 	fill: white !important;
 }
 
-.highcharts-title{
+.highcharts-title, .highcharts-subtitle, .highcharts-legend-item text{
 	fill: white !important;
 }
 
-.highcharts-subtitle{
-	fill: white !important;
+.highcharts-legend-item rect{
+	fill: #730912;
 }
 
 .chartBlurb{
 	font-family: 'Roboto Mono', monospace;
+	text-align: center;
 }
 
-footer{
-	background-color: #730912;
-	position: absolute;
-	bottom: 0;
-	height: 15vh;
-	width: 100vw;
+.tableBlurb{
+	margin-top: 5%;
+}
+
+td, th{
+	background-color: black;
+	text-align: center;
+}
+
+#specTable_length, #specTable_paginate, #table_length, #table_filter, #table_paginate, .dataTables_info{
+	display: none;
+}
+
+.bodyContent{
+	display: flex;
+	justify-content: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#aboutText{
+	width: 65%;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.imgFigure{
+	width: 25%;
+	height: 250px;
+	display: block;
+	margin-left: 0;
+}
+
+#historyImg{
+	border: 15px solid #730912;
+	width: 100%;
+	height: inherit;
+}
+
+figcaption{
+	font-family: 'Roboto Mono', monospace;	
+	font-size: 6pt;
+}
+
+footer .navigationLink{
+	display: none;
+}
+
+.specDataTable{
+	height: 100% !important;
+}
+
+.slick-slide img{
+	width: inherit;
+	height: 500px;
+}
+
+#newsResults{
+	border: 1px solid white;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h3{
+	font-size: 25pt;
+}
+
+.allNewsDiv{
+	border: 1px solid white;
+	/* width: inherit; */
+	/* display: flex; */
+	/* justify-content: center; */
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+	.imgFigure{
+		width: 50%;
+		height: 200px;
+		display: block;
+		margin-left: 0;
+		margin-bottom: 15%;
+	}
+	
+	.specDataTable{
+		overflow: auto;
+		height: inherit;
+	}
+	
+	
+}
+
+
+
+@media(max-width: 767px){	
+	.specDataTable{
+		overflow: auto;
+		height: 800px !important;
+		/* height: 100%; */
+	}
+
+	#headerTitle{
+		font-size: 35pt;
+	}
+
+	.slick-arrow{
+		/* display: none; */
+		width: 50%;
+	}
+	
+	.tableBlurb{
+		margin-top: 10%;
+	
+	}
+	
+	.navigationLink{
+		display: none;
+	}
+	
+	.highcharts-subtitle{
+		font-size: 8pt !important;
+	}
+	
+	.imgFigure{
+		width: 50%;
+		height: 200px;
+		display: block;
+		margin-left: 0;
+		margin-bottom: 10%;
+	}
+	
+	footer .navigationLink{
+		display: initial;
+		width: 100%;
+	}
+
 }

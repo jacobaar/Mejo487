@@ -11,6 +11,7 @@
   <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/">
   <link rel="stylesheet" type = "text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
   <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick-1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" type="text/css" />
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -19,24 +20,83 @@
 		<!-- <img id = "headerImg" src = "images/board.jpg"> -->
 		<div id = "headerInfo">
 			<p id = "headerTitle">Gaming Technology</p>
-			<p id = "headerSubTitle">Insert GOOD Subtitle HERE!</p>
+			<p id = "headerSubTitle">The Evolution and Sales since the Inception.</p>
 		</div>
+		
+		<ul class = "navigationLink">
+			<li> <button class = "button"><a href = "page2.html">News/Images</a></button> </li>
+			<li> <button class = "button"><a href = "page3.html">About the Project</a></button> </li>
+		</ul>
 	</header>
 
 	<div class="slider">
-		<div class = "chartContatiner">
+		<div class = "content chartContatiner">
 			<div id="bar-chart" style="width:100%; height:500px;"></div>
-			<p class = "chartBlurb">INSERT CHART BLURB HERE</p>
+			<p class = "chartBlurb">Sales numbers for the best selling game consoles in each console generation.
+			These numbers were taken based on the latest reported sales numbers for each console. Currently, the best-selling console
+			of all time has been the Playstation 2 with 155 million consoles sold since its release on March 4th, 2000. The Playstation has
+			been the lead console in every generation its had a release except for the seventh generation of consoles where it was beat out by both,
+			the XBOX 360 and the Nintendo Wii.</p>
 		</div>	
 		
-		<div class = "chart">
-			<div id = "bar-chart" style = "width: 100%; height: 500px;"></div>
+		<div class = "content dataTable" style = "width: 100%; height: 500px;">
+			<table id = "table">
+				<thead>
+					<tr>
+						<th>Console Name</th>
+						<th>Sales Numbers</th>
+					</tr>
+				</thead>
+			</table>
+			<p class = "chartBlurb tableBlurb">Sales numbers for the best selling game consoles in each console generation.
+			These numbers were taken based on the latest reported sales numbers for each console. Currently, the best-selling console
+			of all time has been the Playstation 2 with 155 million consoles sold since its release on March 4th, 2000. The Playstation has
+			been the lead console in every generation its had a release except for the seventh generation of consoles where it was beat out by both,
+			the XBOX 360 and the Nintendo Wii.</p>
 		</div>
+		
+		<div class = "content specDataTable" style = "width: 100%; height: 500px;">
+			<table id = "specTable">
+				<thead>
+					<tr>
+						<th>Console Name</th>
+						<th>CPU</th>
+						<th>GPU</th>
+						<th>RAM</th>
+						<th>Storage</th>
+						<th>Networking</th>
+						<th>4K Support</th>
+						<th>Release Date</th>
+					</tr>
+				</thead>
+			</table>
+			
+			<p class = "chartBlurb tableBlurb">
+				The chart above details the major specs for each console to be released in the 8th console generation.<br>
+				Source: https://www.gamespot.com/articles/console-specs-compared-xbox-one-x-ps4-pro-switch-a/1100-6443665/
+			</p>
+		</div>
+		
+		<div class = "content chartContatiner">
+			<div id="pie-chart" style="width:100%; height:500px;"></div>
+			<p class = "chartBlurb">
+				The chart above represents the percentage of gamers who fall under various age groups. The results seem to be spread evenly between each age group.
+				The results shown were based on a poll in 2018.
+			</p>
+		</div>
+		
 	</div>
 	
+	<footer>
+		<ul class = "navigationLink">
+			<li> <button class = "button"><a href = "page3.html">About the Project</a></button> </li>
+			<li> <button class = "button"><a href = "page2.html">News/Images</a></button> </li>
+		</ul>
+	</footer>
 	
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 	<script src="https://code.highcharts.com/highcharts.js"></script>
 	<script type="text/javascript" src= "js/slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
 	<script src="js/scripts.js"></script>

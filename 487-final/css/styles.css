@@ -16,7 +16,7 @@ body {
 /* Add desktop styles here */
 header{
 	height: 100px;
-	background-color: yellow;
+	background-color: #ffda12;
 }
 
 #navMenu{
@@ -41,16 +41,18 @@ header{
 	font-size: 12pt;
 	position: relative;
 	top: 25px;
-	color: blue;
+	color: #1a76d0;
 	margin-right: 10px;
 }
 
 .desktopButton:hover{
 	color: white;
-	background-color: blue;
+	background-color: #1a76d0;
 }
 
-
+.card p{
+	font-weight: bold;
+}
 
 /* Add mobile styles here */
 @media(max-width: 767px){	
@@ -68,7 +70,7 @@ header{
 	
 	#mobileNav{
 		/* display: block; */
-		background-color: #000080;
+		background-color: #082745;
 		/* width: 100%; */
 		display: flex;
 		flex-direction: column;
@@ -81,7 +83,7 @@ header{
 		display: block;
 		background: none;
 		font-size: 17pt;
-		color: blue;
+		color: #1a76d0;
 		float: left;
 		margin: 5px;
 		margin-left: 10px;
@@ -90,7 +92,7 @@ header{
 	}
 	
 	.mobileButton:hover{
-		background-color: blue;
+		background-color: #1a76d0;
 		color: white;
 	}
 	

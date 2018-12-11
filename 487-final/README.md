@@ -28,6 +28,8 @@
 
 16. Style the cards so that they look like the "cards-styled.png image". The country should be on the front of the card, and when you hover, the number of requests should appear. Hint: You might have to refactor the way your data is populating the HTML to achieve this.
 
+^^^^^^Hover State is optional. Can put all information on card ^^^
+
 14. Make a fifth commit with the message, ‘Styled the cards’
 
 15. Do some final CSS work to make sure the cards are stacked on screens smaller than 767px.

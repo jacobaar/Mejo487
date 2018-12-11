@@ -25,6 +25,10 @@ header{
 	justify-content: center;
 }
 
+#mobileNav{
+	display: none;
+}
+
 #headerImg{
 	height: inherit;
 	margin-right: 3%;
@@ -49,3 +53,59 @@ header{
 
 
 /* Add mobile styles here */
+@media(max-width: 767px){	
+	.mobile-btn{
+		display: initial;
+		float: right;
+		position: relative; 
+		top: 40px;
+		right: 50px;
+	}
+	
+	#navMenu{
+		display: initial;
+	}
+	
+	#mobileNav{
+		/* display: block; */
+		background-color: #000080;
+		/* width: 100%; */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 350px;
+	}
+	
+	.mobileButton{
+		border: none;
+		display: block;
+		background: none;
+		font-size: 17pt;
+		color: blue;
+		float: left;
+		margin: 5px;
+		margin-left: 10px;
+		padding: 10px;
+		align-self: flex-start;
+	}
+	
+	.mobileButton:hover{
+		background-color: blue;
+		color: white;
+	}
+	
+	#headerImg{
+		position: relative;
+		left: 50px;
+	}
+	
+	.desktopButton{
+		display: none;
+	}
+	
+	
+}
+
+
+
+

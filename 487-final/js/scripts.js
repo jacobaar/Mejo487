@@ -10,7 +10,6 @@ $(document).ready(function() {
 	  $('#mobileNav').toggle();
   });
   
-  // var url = 'refugees.JSON';
   
   $.ajax({
     type: 'GET',
@@ -29,9 +28,20 @@ $(document).ready(function() {
 		console.log("Origin: " + data[i].Origin + " Value: " + data[i].Value);
 		$('.cards').append('<div class = "card card' + i + '"></div>');
 		$('.card' + i).append('<p class = "cardOrigin">' + data[i].Origin +'</p>');
-		$('.card' + i).append('<p class = "cardRequests">' + data[i].Value + '</p>');
+		$('.card' + i).append('<p class = "cardRequests">' + data[i].Value + ' Requests</p>');
 	}
   }
+
+  
+  $(document).on("mouseenter", ".card", function() {
+	$('> .cardOrigin', this).hide();
+	$('> .cardRequests', this).show();
+  });
+  
+  $(document).on("mouseleave", ".card", function() {
+    $('> .cardOrigin', this).show();
+	$('> .cardRequests', this).hide();
+  });
   
 });
 

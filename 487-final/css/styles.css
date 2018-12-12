@@ -1,7 +1,10 @@
 /* Some default styling to get you started */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -17,6 +20,7 @@ body {
 header{
 	height: 100px;
 	background-color: #ffda12;
+	font-family: 'Roboto', sans-serif;
 }
 
 #navMenu{
